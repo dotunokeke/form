@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <h2>Contact Me</h2>
+        <div id="error_message"></div>
+
+        <form id="myform" onsubmit="return validation()">
+
+          <div class="Input_field">
+            <input type="text" id="name" placeholder="Name">
+          </div>
+
+          <div class="Input_field">
+            <input type="text" id="email" placeholder="Email">
+          </div>
+
+          <div class="Input_field">
+            <input type="text" id="title" placeholder="Title">
+          </div>
+
+          <div class="Input_field">
+            <textarea id="message" placeholder="Message"></textarea>
+          </div>
+
+          <div class="btn">
+            <input type="submit">
+          </div>
+
+
+
+
+        </form>
+
+      </div>
+  <script src="myScript.js" type="text/javascript"></script>
+
+</body>
+</html>
